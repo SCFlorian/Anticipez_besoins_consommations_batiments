@@ -1,0 +1,45 @@
+# ====================================
+# Ignorer des fichiers spécifiques au projet
+# ====================================
+
+# Tu ne veux pas versionner ces fichiers Jupyter Notebook :
+P3_essaie.ipynb
+P3_etape1_et2 copy.ipynb
+P3_revu_indicateurs.ipynb
+Entrainement_modele.ipynb
+2016_Building_Energy_Benchmarking.csv
+# Fichier de lock de poetry (utile uniquement si tu veux un repo léger)
+poetry.lock
+
+# Facultatif : ignorer le README uniquement si tu ne veux vraiment pas le publier
+# Sinon, il est souvent utile sur GitHub
+# README.md
+
+# ====================================
+# Fichiers techniques à ignorer
+# ====================================
+
+# Ne PAS ignorer __init__.py : c’est utile pour les packages Python
+# __init__.py  <-- à enlever du gitignore
+
+# Fichiers Python compilés
+*.pyc
+__pycache__/
+
+# Fichiers temporaires ou logs
+*.log
+*.tmp
+
+# Fichiers Jupyter en backup (ex: fichier~)
+*~
+
+# ====================================
+# Système (macOS)
+# ====================================
+
+.DS_Store
+
+# ====================================
+# Fichiers sensibles (à adapter selon ton projet)
+.env
+secrets.txt
