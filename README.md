@@ -3,6 +3,7 @@ Projet 3 dans le cadre de ma formation en data science sur OpenClassrooms. Engag
 
 ## Table des matières
 [Problématique](#Problématique)
+[Données utilisées](#Données utilisées)
 
 
 ### Problématique
@@ -14,6 +15,7 @@ L'objectif ici est :
 ### Données utilisées
 - Fichier csv de la formation. Ce sont des données de la ville de Seattle sur l'année 2016.
 - Source officielle de la ville de Seattle : https://data.seattle.gov/Built-Environment/Building-Energy-Benchmarking-Data-2015-Present/teqw-tu6e/about_data
+
 
 
 
