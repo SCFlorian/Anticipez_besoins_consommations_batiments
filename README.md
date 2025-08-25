@@ -20,7 +20,7 @@ L'objectif ici est :
 - Source officielle de la ville de Seattle : https://data.seattle.gov/Built-Environment/Building-Energy-Benchmarking-Data-2015-Present/teqw-tu6e/about_data
 
 ### Organisation du projet
-
+```
 Projet_Besoins_Consommation_Bâtiments
 ├── Data/                   # Jeux de données nettoyés et préparés
 │   ├── Projet_3_etape1_clean.csv
@@ -47,7 +47,7 @@ Projet_Besoins_Consommation_Bâtiments
 ├── README.md               # Documentation du projet
 ├── __init__.py             # Initialisation du module Python
 └── pyproject.toml          # Configuration et dépendances
-
+```
 
 
 
