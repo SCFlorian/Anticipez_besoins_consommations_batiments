@@ -51,9 +51,10 @@ Projet_Besoins_Consommation_Bâtiments
 ```
 ### Installation & Utilisation (VS Code)
 1. Cloner le projet
-   ```
+```
 git@github.com:SCFlorian/Anticipez_besoins_consommations_batiments.git
 ```
+
 
 
 
