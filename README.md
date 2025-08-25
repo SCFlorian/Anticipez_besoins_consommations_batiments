@@ -54,13 +54,36 @@ Projet_Besoins_Consommation_Bâtiments
 ```
 git@github.com:SCFlorian/Anticipez_besoins_consommations_batiments.git
 ```
+2. Installer les dépendances
+Le projet utilise pyproject.toml pour la gestion des dépendances.
+Deux options possibles :
+```
+# Installer poetry si besoin
+pip install poetry
 
+# Installer les dépendances
+poetry install
+```
+Avec pip directement
+```
+pip install .
+```
+3. Ouvrir le projet dans VS Code
+```
+code .
+```
+4. Configurer l’environnement Python dans VS Code
+	1.	Installez l’extension Python (si ce n’est pas déjà fait).
+	2.	Appuyez sur Ctrl+Shift+P (Windows/Linux) ou Cmd+Shift+P (Mac).
+	4.	Recherchez “Python: Select Interpreter”.
+	5.	Sélectionnez l’environnement créé par Poetry ou celui dans lequel tu as installé le projet.
 
-
-
-
-
-
-
-
+5. Travailler avec les notebooks
+	•	Les notebooks se trouvent dans le dossier :
+```
+notebooks/
+```
+	•	Ouvrez n’importe quel fichier .ipynb (ex. Notebook_1_analyse_exploratoire.ipynb).
+	•	VS Code activera automatiquement l’éditeur interactif Jupyter.
+	•	Vous pouvez exécuter les cellules avec Shift+Enter.
 
