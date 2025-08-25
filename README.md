@@ -56,7 +56,6 @@ git@github.com:SCFlorian/Anticipez_besoins_consommations_batiments.git
 ```
 2. Installer les dépendances
 Le projet utilise pyproject.toml pour la gestion des dépendances.
-Deux options possibles :
 ```
 poetry install
 ```
@@ -79,6 +78,10 @@ notebooks/
 - Ouvrez n’importe quel fichier .ipynb (ex. Notebook_1_analyse_exploratoire.ipynb).
 - VS Code activera automatiquement l’éditeur interactif Jupyter.
 - Vous pouvez exécuter les cellules avec Shift+Enter.
+
+### Résultats de la validation croisée de 4 modèles
+<img width="1259" height="683" alt="Capture d’écran 2025-08-25 à 16 58 40" src="https://github.com/user-attachments/assets/6d099062-8584-46f1-b691-25342a7f736b" />
+
 
 
 
