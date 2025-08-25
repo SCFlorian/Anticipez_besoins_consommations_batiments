@@ -21,13 +21,14 @@ L'objectif ici est :
 
 ### Organisation du projet
 
-├── Data/                        
+Projet_Besoins_Consommation_Bâtiments
+├── Data/                   # Jeux de données nettoyés et préparés
 │   ├── Projet_3_etape1_clean.csv
 │   ├── Projet_3_etape2_clean.csv
 │   ├── Projet_3_etape3_clean.csv
 │   └── building_clean_second.csv
 │
-├── graphiques/                  
+├── graphiques/             # Visualisations générées
 │   ├── boxplot_buildingtype.png
 │   ├── boxplot_compliancestatus.png
 │   ├── boxplot_neighborhood.png
@@ -35,17 +36,17 @@ L'objectif ici est :
 │   ├── boxplot_outlier.png
 │   └── boxplot_primarypropertytype.png
 │
-├── notebooks/                  
+├── notebooks/              # Analyse et modélisation (Jupyter Notebooks)
 │   ├── Notebook_1_analyse_exploratoire.ipynb
 │   ├── Notebook_2_preparation_features.ipynb
 │   ├── Notebook_3_modelisation_features.ipynb
 │   ├── Notebook_4_tests_modeles.ipynb
 │   └── Notebook_5_optimisation_modele.ipynb
 │
-├── .gitignore                     # Fichiers/dossiers ignorés par Git
-├── README.md                      # Documentation du projet
-├── __init__.py                    # Initialisation du module Python
-└── pyproject.toml                 # Configuration et dépendances
+├── .gitignore              # Fichiers/dossiers ignorés par Git
+├── README.md               # Documentation du projet
+├── __init__.py             # Initialisation du module Python
+└── pyproject.toml          # Configuration et dépendances
 
 
 
