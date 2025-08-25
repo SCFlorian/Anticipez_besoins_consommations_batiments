@@ -1,9 +1,12 @@
 # Anticipez les besoins en consommation des bâtiments
-Projet 3 dans le cadre de ma formation en data science sur OpenClassrooms. Engagé par la ville de Seattle dont l'objectif est d'être une ville neutre en 2050, je dois réaliser une prédiction des besoins en consommations des bâtiments. Pour la réaliser, je dois tester plusieurs modèles et les comparer.
+L’objectif de ce projet est de développer un modèle de prédiction de la consommation énergétique des bâtiments à partir de données publiques de la ville de Seattle (2016).
+
+Le travail consiste à explorer les données, tester plusieurs modèles de machine learning et comparer leurs performances afin d’identifier les facteurs ayant le plus d’impact sur la consommation.
 
 ## Table des matières
 - [Problématique](#problematique)
 - [Données utilisées](#donnees-utilisees)
+- [Organisation du projet](#organisan-du-projet)
 
 
 ### Problématique
@@ -16,6 +19,33 @@ L'objectif ici est :
 - Fichier csv de la formation. Ce sont des données de la ville de Seattle sur l'année 2016.
 - Source officielle de la ville de Seattle : https://data.seattle.gov/Built-Environment/Building-Energy-Benchmarking-Data-2015-Present/teqw-tu6e/about_data
 
+### Organisation du projet
+
+├── Data/                        
+│   ├── Projet_3_etape1_clean.csv
+│   ├── Projet_3_etape2_clean.csv
+│   ├── Projet_3_etape3_clean.csv
+│   └── building_clean_second.csv
+│
+├── graphiques/                  
+│   ├── boxplot_buildingtype.png
+│   ├── boxplot_compliancestatus.png
+│   ├── boxplot_neighborhood.png
+│   ├── boxplot_numberoffloors.png
+│   ├── boxplot_outlier.png
+│   └── boxplot_primarypropertytype.png
+│
+├── notebooks/                  
+│   ├── Notebook_1_analyse_exploratoire.ipynb
+│   ├── Notebook_2_preparation_features.ipynb
+│   ├── Notebook_3_modelisation_features.ipynb
+│   ├── Notebook_4_tests_modeles.ipynb
+│   └── Notebook_5_optimisation_modele.ipynb
+│
+├── .gitignore                     # Fichiers/dossiers ignorés par Git
+├── README.md                      # Documentation du projet
+├── __init__.py                    # Initialisation du module Python
+└── pyproject.toml                 # Configuration et dépendances
 
 
 
