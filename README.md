@@ -8,6 +8,8 @@ Le travail consiste à explorer les données, tester plusieurs modèles de machi
 - [Données utilisées](#donnees-utilisees)
 - [Organisation du projet](#organisan-du-projet)
 - [Installation & Utilisation (VS Code)](#installation_&_utilisation_(_VS_Code_))
+- [Résultats de la validation croisée de 4 modèles](#resultats_de_la_validation_croisee_de_4_modeles)
+- [Optimisation des paramètres pour le meilleur modèle](#optimisation_des_parametres_pour_le_meilleur_modele)
 
 
 ### Problématique
@@ -82,7 +84,8 @@ notebooks/
 ### Résultats de la validation croisée de 4 modèles
 <img width="1259" height="683" alt="Capture d’écran 2025-08-25 à 16 58 40" src="https://github.com/user-attachments/assets/6d099062-8584-46f1-b691-25342a7f736b" />
 
-
+### Optimisation des paramètres pour le meilleur modèle
+<img width="1167" height="691" alt="Capture d’écran 2025-08-25 à 16 58 57" src="https://github.com/user-attachments/assets/8bd87ed1-b95b-4226-b2fc-f23d94e4f820" />
 
 
 
