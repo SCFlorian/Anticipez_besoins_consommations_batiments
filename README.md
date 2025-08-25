@@ -7,6 +7,7 @@ Le travail consiste à explorer les données, tester plusieurs modèles de machi
 - [Problématique](#problematique)
 - [Données utilisées](#donnees-utilisees)
 - [Organisation du projet](#organisan-du-projet)
+- [Installation & Utilisation (VS Code)](#installation_&_utilisation_(_VS_Code_))
 
 
 ### Problématique
@@ -48,7 +49,11 @@ Projet_Besoins_Consommation_Bâtiments
 ├── __init__.py             # Initialisation du module Python
 └── pyproject.toml          # Configuration et dépendances
 ```
+### Installation & Utilisation (VS Code)
 
+
+
+git@github.com:SCFlorian/Anticipez_besoins_consommations_batiments.git
 
 
 
